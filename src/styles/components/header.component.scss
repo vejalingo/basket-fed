@@ -1,0 +1,37 @@
+.header {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    width: 70.5px;
+    height: 18.5px;
+  }
+
+  &__nav {
+    display: none;
+    @media screen and (min-width: 760px) {
+      display: flex;
+      ul {
+        display: flex;
+        list-style: none;
+        .nav__item {
+          margin-right: 15px;
+          font-family: Roboto;
+          font-size: 15px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 0.3px;
+          text-align: left;
+
+          a {
+            color: #231f20;
+          }
+        }
+      }
+    }
+  }
+}
